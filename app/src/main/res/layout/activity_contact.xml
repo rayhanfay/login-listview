@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ContactActivity">
+
+
+  <TextView
+      android:id="@+id/barTextView"
+      android:layout_width="match_parent"
+      android:layout_height="120dp"
+      android:background="@color/design_default_color_on_secondary"
+      android:gravity="center"
+      android:text="Contact Us"
+      android:textColor="@android:color/white"
+      android:textSize="20sp" />
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/l_location"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="170dp" />
+
+  <ImageView
+      android:id="@+id/imageView5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="534dp"
+      android:src="@drawable/l_time" />
+
+  <TextView
+      android:id="@+id/tv_location"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="208dp"
+      android:text="Kampus Bina Widya KM. 12,5, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau 28293"
+      android:textAlignment="center"
+      android:textSize="16sp" />
+
+  <TextView
+      android:id="@+id/tv_email"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:text="rahmat.rizal@lecturer.unri.ac.id"
+      android:textAlignment="center"
+      android:textSize="16sp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="323dp" />
+
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/l_email"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="286dp" />
+
+  <TextView
+      android:id="@+id/tv_phone"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:text="076163266"
+      android:textAlignment="center"
+      android:textSize="16sp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="437dp" />
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/l_phone"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="398dp" />
+
+  <TextView
+      android:id="@+id/textView6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="574dp"
+      android:text="Jam Operasinoal Senin - Kamis 07. 00 - 17.00"
+      android:textAlignment="center"
+      android:textSize="16sp" />
+</RelativeLayout>
